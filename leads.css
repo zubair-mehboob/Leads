@@ -1,0 +1,248 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("leadsm.jpg");
+    background-attachment: scroll;
+    
+}
+
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+nav{
+    width:92.5%;
+  
+   /* background-color:rgb(253, 253, 253);*/
+   background-color: orange;
+    position: fixed;
+    top:0;
+    margin: 0 auto;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    height: 30px;
+    
+
+}
+nav li{
+    list-style-type: none;
+    float: left;
+
+}
+
+nav li:hover{
+    background-color: rgb(207, 43, 43);
+    
+}
+
+nav li:active{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+nav a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.welcome{
+    background-color:lightgray;
+    color: rgb(41, 39, 39);
+    padding: 80px 40px;
+  
+    
+    
+}
+.welcome-col1{
+    width:75%;
+}
+.welcome-col2{
+    width:20%;
+    position: relative;
+}
+.welcome-com{
+    float: left;
+}
+.welcome::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.welcome-col2 input[type='button']{
+    background-color: orange;
+    border:1px solid white;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width:100px;
+    position: absolute;
+    top:60px;
+    margin: 0 20px;
+}
+.welcome-col2 input[type='button']:hover{
+    background-color: black;
+    color: white;
+}
+#banner-heading{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 5px 5px white;
+}
+.banner{
+    position: relative;
+}
+
+.banner button{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top:450px;
+   left: 700px;
+   background-color: orange;
+   
+}
+.banner a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.banner button:hover{
+    background-color: rgb(207, 43, 43);
+}
+.courses-wrapper{
+    background-color: orange;
+    margin: 40px;
+    padding: 40px;
+    
+}
+.courses{
+    background-color: white;
+    width: 20%;
+    float:left;
+    border: 1px solid black;
+    padding: 0 22px;
+    margin: 0 8px;
+    text-align: center;
+   
+
+}
+.courses-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.courses-main{
+    padding: 80px 40px;
+}
+
+.institute{
+    padding: 80px 40px;
+    background-color: hsla(240, 46%, 25%, 15%);
+    
+}
+.album{
+    margin:0 auto;
+    
+}
+
+.images{
+    padding: 20px;
+}
+.detail{
+    padding: 80px 40px;
+   
+}
+
+.d{
+    width: 28%;
+    float:left;
+    
+    padding: 0 22px;
+    margin: 0 25px;
+    height:300px;
+     
+}
+.detail-notifications{
+    background-color: hsla(240, 100%, 25%, 75%);
+    color:white;
+    padding: 10px;
+}
+.detail-notifications li{
+    padding: 5px;
+}
+.detail-notifications ol{
+    list-style-position: inside;
+    
+}
+.detail-notifications ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+.detail::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#clr{
+
+    background-color: hsla(240, 100%, 25%, 50%);
+    color: white;
+
+}
+
+.detail-time-table{
+    background-color: hsla(240, 100%, 25%, 30%);
+    color: white;
+    padding:10px;
+    font-weight: bold;
+}
+
+.footer{
+    padding: 80px 40px;
+    background-image: url("leads3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.col{
+    width:38%;
+    float:right;
+    
+    padding: 40px;
+    margin:40px;
+}
+.footer::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.col input[type='submit']{
+    background-color:(240, 240, 240, 0.288);
+    width: 80px;
+    height: 40px;
+    color: black;
+    font-weight: bolder;
+}
+.col input[type='submit']:hover{
+    background-color: brown;
+    color:white;
+}
+ address p{
+     font-weight: bold;
+ }
